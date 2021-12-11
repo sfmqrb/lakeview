@@ -1,2 +1,2 @@
 compile-sass:
-	node-sass ./sass/main.scss ./css/main.css
+	node-sass ./sass/main.scss ./css/style.css

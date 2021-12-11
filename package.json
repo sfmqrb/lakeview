@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "time to relax",
     "main": "index.html",
+    "scripts": {
+        "compile:sass": "node-sass ./sass/main.scss ./css/style.css"
+    },
     "author": "sfmqrb",
     "license": "MIT",
     "devDependencies": {}
