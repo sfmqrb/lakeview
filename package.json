@@ -1,0 +1,9 @@
+{
+    "name": "lakeview",
+    "version": "1.0.0",
+    "description": "time to relax",
+    "main": "index.html",
+    "author": "sfmqrb",
+    "license": "MIT",
+    "devDependencies": {}
+}
