@@ -16,3 +16,19 @@
         display: block;
     }
 }
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, $primary-light, $secondary-light);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 1s ease;
+    &:hover {
+        transform: skewX(2deg) scale(1.05);
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+        // transform: skewY(2deg);
+    }
+}
