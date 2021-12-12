@@ -178,6 +178,16 @@ body {
     transform: skewX(2deg) scale(1.05);
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
 .btn:link, .btn:visited {
   text-decoration: none;
   text-transform: uppercase;
@@ -204,9 +214,31 @@ body {
   color: #f2f2f2;
   margin-right: 1rem; }
 
+.btn-rectangular:link, .btn-rectangular:visited {
+  color: #8c6239;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid #8c6239;
+  padding: 1rem;
+  font-size: 1.6rem;
+  transition: all 0.5s; }
+
+.btn-rectangular:hover {
+  background-color: #8c6239;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  transform: translateY(-3px); }
+
+.btn-rectangular:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); }
+
 .about-section {
   background-color: #f2f2f2;
   padding: 7rem 0; }
 
 .u-align-center {
   text-align: center; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
