@@ -233,6 +233,32 @@ body {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); }
 
+.composition {
+  position: relative;
+  margin: 5rem; }
+  .composition__img {
+    width: 45%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.5s; }
+    .composition__img--1 {
+      left: -2rem;
+      top: -2rem; }
+    .composition__img--2 {
+      left: 6rem;
+      top: 6rem; }
+    .composition__img--3 {
+      left: 14rem;
+      top: 14rem; }
+    .composition__img:hover {
+      transform: scale(1.4) translateY(-0.5rem);
+      box-shadow: 0 1.5rem 5rem rgba(0, 0, 0, 0.6);
+      z-index: 20; }
+    .composition__img:hover .composition__img:__img:not(:hover) {
+      transform: scale(0.1); }
+
 .about-section {
   background-color: #f2f2f2;
   padding: 7rem 0; }
