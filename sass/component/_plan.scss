@@ -20,6 +20,15 @@
             background-color: $primary-light;
             transform: rotateY(180deg);
             border-radius: 0px 30px 0px 30px;
+            &-1 {
+                background-image: linear-gradient(to right bottom, $secondary-1, $secondary-1-dark);
+            }
+            &-2 {
+                background-image: linear-gradient(to right bottom, $secondary-2, $secondary-2-dark);
+            }
+            &-3 {
+                background-image: linear-gradient(to right bottom, $secondary-3, $secondary-3-dark);
+            }
         }
     }
     &:hover &__side--front {
@@ -81,5 +90,25 @@
                 }
             }
         }
+    }
+    &__button {
+        position: absolute;
+        top: 50%;
+        @include center-object;
+        width: 90%;
+        text-align: center;
+    }
+    &__cost-box {
+        color: white;
+        margin-bottom: 16rem;
+    }
+    &__cost-value {
+        font-size: 4.5rem;
+        font-weight: 100;
+    }
+    &__cost-duration {
+        font-size: 1.5rem;
+        font-weight: 100;
+        text-transform: uppercase;
     }
 }

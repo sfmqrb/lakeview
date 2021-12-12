@@ -351,6 +351,12 @@ body {
       background-color: #28b485;
       transform: rotateY(180deg);
       border-radius: 0px 30px 0px 30px; }
+      .plan__side--back-1 {
+        background-image: linear-gradient(to right bottom, #e2b5a8, #876c64); }
+      .plan__side--back-2 {
+        background-image: linear-gradient(to right bottom, #bbb4eb, #707f8d); }
+      .plan__side--back-3 {
+        background-image: linear-gradient(to right bottom, #B398B0, #80657d); }
   .plan:hover .plan__side--front {
     transform: rotateY(-180deg); }
   .plan:hover .plan__side--back {
@@ -397,6 +403,24 @@ body {
         padding: 2rem; }
         .plan__bullets ul li:not(:last-child) {
           border-bottom: 1px solid #eee; }
+  .plan__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    text-align: center; }
+  .plan__cost-box {
+    color: white;
+    margin-bottom: 16rem; }
+  .plan__cost-value {
+    font-size: 4.5rem;
+    font-weight: 100; }
+  .plan__cost-duration {
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-transform: uppercase; }
 
 .bg-video {
   position: absolute;
