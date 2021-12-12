@@ -499,6 +499,42 @@ body {
     float: right;
     margin-right: 5rem; }
 
+.form__input {
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  width: 100%;
+  border-radius: 2px;
+  color: #333;
+  font-family: inherit; }
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  transform: translate(-4rem); }
+
+.form__label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-top: .7rem;
+  margin-left: 2rem;
+  display: block; }
+
+.form__group {
+  margin-bottom: 3rem; }
+
+.contact {
+  height: 53rem;
+  background-image: radial-gradient(circle closest-corner at 75% 50%, transparent 0%, transparent 50%, rgba(40, 180, 133, 0.4) 50%), url(img/contact-form-img-2.jpg);
+  background-size: 100%;
+  background-position: left 50%;
+  border-radius: 30px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
+  .contact__form {
+    width: 50%;
+    padding: 6rem; }
+
 .about-section {
   background-color: #f2f2f2;
   padding: 7rem 0; }
@@ -515,6 +551,10 @@ body {
   margin-top: 5rem;
   padding: 15rem 0rem;
   background-color: #f2f2f2; }
+
+.contact-section {
+  padding-top: 5rem;
+  background-color: #fff; }
 
 .u-align-center {
   text-align: center; }

@@ -1,0 +1,29 @@
+.form {
+    &__input {
+        font-size: 1.5rem;
+        padding: 1.5rem 2rem;
+        background-color: rgba(white, 0.5);
+        border: none;
+        width: 100%;
+        border-radius: 2px;
+        color: $grey_dark-3;
+        font-family: inherit;
+    }
+    &__input:placeholder-shown+&__label {
+        opacity: 0;
+        transform: translate(-4rem)
+    }
+    &__label {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: white;
+        margin-top: .7rem;
+        margin-left: 2rem;
+        display: block;
+    }
+    &__group {
+        margin-bottom: 3rem;
+    }
+    &__radio-group {}
+    &__radio-label {}
+}
