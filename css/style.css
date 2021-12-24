@@ -92,8 +92,25 @@
 
 html {
   /* 62.5% = 10px 
-    flexible to zoom in and out */
-  font-size: 62.5%; }
+    flexible to zoom in and out 
+    1rem = 10px */
+  font-size: 62.5%;
+  /* phone - tab-port - tab-land - desktop - big-desktop */
+  /* phone - tab-port - tab-land - desktop - big-desktop */
+  /* phone - tab-port - tab-land - desktop - big-desktop */
+  /* phone - tab-port - tab-land - desktop - big-desktop */ }
+  @media only screen and (min-width: 1200px) {
+    html {
+      font-size: 75%; } }
+  @media only screen and (max-width: 991px) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 768px) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 576px) {
+    html {
+      font-size: 50%; } }
 
 body {
   font-family: "lora", serif;
